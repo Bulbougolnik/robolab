@@ -1,0 +1,8 @@
+[project]
+name = "robolab"
+version = "0.1"
+dependencies = ["numpy"]
+[project.optional-dependencies]
+test = ["pytest"]
+[tool.setuptools]
+packages = ["robolab"]
